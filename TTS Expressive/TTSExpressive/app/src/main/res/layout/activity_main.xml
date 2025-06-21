@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- English Section -->
+        <EditText
+            android:id="@+id/etEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello! I am your voice assistant from Ohhpro. I’m here to help you with service ticket booking and automatic payment of your bills."
+            android:hint="Enter English text" />
+
+        <Button
+            android:id="@+id/btnSpeakEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak English"
+            android:layout_marginTop="8dp" />
+
+        <!-- Hindi Section -->
+        <EditText
+            android:id="@+id/etHindi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="नमस्ते! मैं ओह्हप्रो की तरफ से आपकी वॉइस असिस्टेंट हूं। मैं आपकी सेवा टिकट बुकिंग और बिलों के ऑटोमैटिक भुगतान में मदद करने के लिए यहां हूं।
+
+"
+            android:hint="Enter Hindi text"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSpeakHindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak Hindi" />
+
+        <!-- Odia Section -->
+        <EditText
+            android:id="@+id/etOdia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ନମସ୍କାର! ମୁଁ ଓହ୍‌ପ୍ରୋ ତରଫରୁ ଆପଣଙ୍କର ଭଏସ୍‌ ଅସିଷ୍ଟେଣ୍ଟ। ସେବା ଟିକେଟ୍‌ ବୁକିଂ ଏବଂ ବିଲ୍‌ର ସ୍ୱୟଂଚାଳିତ ଅଦାୟ ନିମିତ୍ତରେ ମୁଁ ଆପଣଙ୍କୁ ସାହାଯ୍ୟ କରିବି"
+            android:hint="Enter Odia text"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSpeakOdia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak Odia" />
+
+
+        <EditText
+            android:id="@+id/etElevenLabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="नमस्ते! मैं ओह्हप्रो की ओर से आपकी वॉइस असिस्टेंट हूं। मेरा उद्देश्य है कि आपको हर सेवा में सुविधा और सहायता प्रदान करना। चाहे वह सेवा टिकट की बुकिंग हो या आपके मासिक बिलों का ऑटोमैटिक भुगतान – मैं हर कदम पर आपके साथ हूं। अब कोई झंझट नहीं, सिर्फ एक कमांड और आपका काम हो जाएगा, आसान और भरोसेमंद तरीके से।
+
+"
+            android:hint="Enter text for ElevenLabs"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSpeakElevenLabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak via Express" />
+
+
+     <!--   <EditText
+            android:id="@+id/etElevenLabs2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="सुभेन्दु एक जुनूनी डेवेलपर है, जिसे उपयोगी और नवाचारी ऐप्स बनाना बहुत पसंद है। वह तकनीक से जुड़ी समस्याओं को हल करना पसंद करता है और हर दिन कुछ नया सीखने की कोशिश करता है।"
+            android:hint="Enter text for ElevenLabs"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSpeakElevenLabs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak via Express Female" />-->
+
+
+
+
+        <!-- Speed & Pitch Controls -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed (0.5x to 2.0x)"
+            android:layout_marginTop="24dp" />
+
+        <SeekBar
+            android:id="@+id/speedSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="150"
+            android:progress="50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pitch (0.5 to 2.0)"
+            android:layout_marginTop="16dp" />
+
+        <SeekBar
+            android:layout_marginBottom="200dp"
+            android:id="@+id/pitchSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="150"
+            android:progress="50" />
+
+
+
+    </LinearLayout>
+</ScrollView>
